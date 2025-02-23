@@ -1,3 +1,5 @@
+# Atividade realizada por Eduardo Augusto, Jorge Lucas e Igor Gerlach na Faculdade SENAI Felix Guisard 2025
+
 import cv2
 import mediapipe as mp
 
