@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 
-video = cv2.VideoCapture(0)
+video = cv2.VideoCapture(1)
 
 #configurações do mediapipe
 hand = mp.solutions.hands 
