@@ -24,7 +24,7 @@ while True:
             for id,cord in enumerate(points.landmark): #pega os ponto e coloca um numer]
                 cx,cy = int(cord.x*w), int(cord.y*h)
                 #Para ver os pontos da mão na imagem da camera:
-                #cv2.putText(img,str(id),(cx,cy+10), cv2.FONT_HERSHEY_SIMPLEX,0.5, (255,0,0), 2)
+                cv2.putText(img,str(id),(cx,cy+10), cv2.FONT_HERSHEY_SIMPLEX,0.5, (255,0,0), 2)
                 pontos.append((cx,cy)) #coordenada pra cada ponto
 
         #Teste contador de dedos
@@ -35,7 +35,7 @@ while True:
                 if pontos[x][1] < pontos[x-2][1]: #verifica se o valor da ponta do dedo tá menor que o ponto do inicio do dedo
                     contador +=1
 
-        print(contador)
+        print("Dedos em pé " contador)
 
     cv2.imshow("Imagem",img)
     cv2.waitKey(1)
