@@ -2,7 +2,7 @@
 
 ## Dependências
 
-Python 3.10.x
+Python 3.10.x ```www.python.org/downloads/release/python-3100/```
 
 Pygame 
 ```pip install pygame```
