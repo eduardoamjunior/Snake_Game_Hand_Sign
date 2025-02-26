@@ -16,6 +16,14 @@ MediaPipe
 Numpy
 ```pip install numpy```
 
+### TREINAMENTO
+Tudo para treinar
+```pip install numpy pandas tensorflow opencv-python mediapipe scikit-learn```
+
+1. preparar_dados.py
+2. treinar_modelo.py
+3. testar_modelo.py
+
 
 ## Para Jogar
 
