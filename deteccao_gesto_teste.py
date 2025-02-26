@@ -35,7 +35,7 @@ while True:
                 if pontos[x][1] < pontos[x-2][1]: #verifica se o valor da ponta do dedo tá menor que o ponto do inicio do dedo
                     contador +=1
 
-        print("Dedos em pé " contador)
+        print("Dedos em pé ", contador)
 
     cv2.imshow("Imagem",img)
     cv2.waitKey(1)
